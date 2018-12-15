@@ -1,0 +1,35 @@
+#progres {
+    width: 100%;
+    background-color: grey;
+}
+
+#bar{
+    width: 1%;
+    height: 20px;
+    background-color: #1ceb1c;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dugmici input{
+    padding-left: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.dugmici{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.dugmici input:hover{
+    background-color: #1ceb1c;
+    color: white;
+    
+    
+}
